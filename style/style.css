@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+
+
+.box1 {
+	background-color: mistyrose;
+	height: 80px;
+	width: 500px;
+}
+
+.box2 {
+	background-color: royalblue;
+	height: 90vh;
+	width: 500px;
+}
+
+.box3 {
+	background-color: hotpink;
+	height: 50px;
+	width: 500px;
+}
+
