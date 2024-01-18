@@ -5,23 +5,67 @@
 	font-size: 1rem;
 }
 
-
+.wrap {
+	display: grid;
+	justify-content: center;
+	
+	background-color: darkcyan;
+	background-repeat: no-repeat;
+}
 
 .box1 {
-	background-color: mistyrose;
-	height: 80px;
-	width: 500px;
+	background-color: #1d283a;
+	height: 200px;
+	width: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+	border: 3px solid red;
+	display: flex;
+}
+
+h1, h2 {
+	margin: 0px 0 0 15px;
+	font-size: 1.5rem;
+}
+
+h1 {
+	margin-top: 1rem;
+}
+
+.nav-bar-1 {
+	border: 3px solid yellowgreen;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-ul-1 {
+	display:
+	
+}
+
+.nav-ul-1 a li {
+	color: yellowgreen;
+	list-style-type: none;
 }
 
 .box2 {
 	background-color: royalblue;
-	height: 90vh;
-	width: 500px;
+	height: 70vh;
+	width: 800px;
 }
 
 .box3 {
 	background-color: hotpink;
-	height: 50px;
-	width: 500px;
+	height: 82px;
+	width: 800px;
 }
 
